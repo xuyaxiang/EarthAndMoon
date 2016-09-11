@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6CC0FED1D853A640096B99F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CC0FEC1D853A640096B99F /* main.m */; };
+		F6CC0FF01D853A640096B99F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CC0FEF1D853A640096B99F /* AppDelegate.m */; };
+		F6CC0FF31D853A640096B99F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CC0FF21D853A640096B99F /* ViewController.m */; };
+		F6CC0FF61D853A640096B99F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CC0FF41D853A640096B99F /* Main.storyboard */; };
+		F6CC0FF81D853A640096B99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6CC0FF71D853A640096B99F /* Assets.xcassets */; };
+		F6CC0FFB1D853A640096B99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CC0FF91D853A640096B99F /* LaunchScreen.storyboard */; };
+		F6CC10061D853A640096B99F /* EarthAndMoon1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CC10051D853A640096B99F /* EarthAndMoon1Tests.m */; };
+		F6CC10111D853A640096B99F /* EarthAndMoon1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CC10101D853A640096B99F /* EarthAndMoon1UITests.m */; };
+		F6CC10211D853A7D0096B99F /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6CC101E1D853A7D0096B99F /* Earth.jpg */; };
+		F6CC10221D853A7D0096B99F /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6CC101F1D853A7D0096B99F /* Moon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6CC10021D853A640096B99F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6CC0FE01D853A640096B99F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6CC0FE71D853A640096B99F;
+			remoteInfo = EarthAndMoon1;
+		};
+		F6CC100D1D853A640096B99F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6CC0FE01D853A640096B99F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6CC0FE71D853A640096B99F;
+			remoteInfo = EarthAndMoon1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6CC0FE81D853A640096B99F /* EarthAndMoon1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthAndMoon1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CC0FEC1D853A640096B99F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6CC0FEE1D853A640096B99F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6CC0FEF1D853A640096B99F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6CC0FF11D853A640096B99F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6CC0FF21D853A640096B99F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6CC0FF51D853A640096B99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6CC0FF71D853A640096B99F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6CC0FFA1D853A640096B99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6CC0FFC1D853A640096B99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CC10011D853A640096B99F /* EarthAndMoon1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthAndMoon1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CC10051D853A640096B99F /* EarthAndMoon1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthAndMoon1Tests.m; sourceTree = "<group>"; };
+		F6CC10071D853A640096B99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CC100C1D853A640096B99F /* EarthAndMoon1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthAndMoon1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CC10101D853A640096B99F /* EarthAndMoon1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthAndMoon1UITests.m; sourceTree = "<group>"; };
+		F6CC10121D853A640096B99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CC101E1D853A7D0096B99F /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpg; sourceTree = "<group>"; };
+		F6CC101F1D853A7D0096B99F /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon.png; sourceTree = "<group>"; };
+		F6CC10201D853A7D0096B99F /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6CC0FE51D853A640096B99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CC0FFE1D853A640096B99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CC10091D853A640096B99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6CC0FDF1D853A640096B99F = {
+			isa = PBXGroup;
+			children = (
+				F6CC0FEA1D853A640096B99F /* EarthAndMoon1 */,
+				F6CC10041D853A640096B99F /* EarthAndMoon1Tests */,
+				F6CC100F1D853A640096B99F /* EarthAndMoon1UITests */,
+				F6CC0FE91D853A640096B99F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6CC0FE91D853A640096B99F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC0FE81D853A640096B99F /* EarthAndMoon1.app */,
+				F6CC10011D853A640096B99F /* EarthAndMoon1Tests.xctest */,
+				F6CC100C1D853A640096B99F /* EarthAndMoon1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6CC0FEA1D853A640096B99F /* EarthAndMoon1 */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC101E1D853A7D0096B99F /* Earth.jpg */,
+				F6CC101F1D853A7D0096B99F /* Moon.png */,
+				F6CC10201D853A7D0096B99F /* sphere.h */,
+				F6CC0FEE1D853A640096B99F /* AppDelegate.h */,
+				F6CC0FEF1D853A640096B99F /* AppDelegate.m */,
+				F6CC0FF11D853A640096B99F /* ViewController.h */,
+				F6CC0FF21D853A640096B99F /* ViewController.m */,
+				F6CC0FF41D853A640096B99F /* Main.storyboard */,
+				F6CC0FF71D853A640096B99F /* Assets.xcassets */,
+				F6CC0FF91D853A640096B99F /* LaunchScreen.storyboard */,
+				F6CC0FFC1D853A640096B99F /* Info.plist */,
+				F6CC0FEB1D853A640096B99F /* Supporting Files */,
+			);
+			path = EarthAndMoon1;
+			sourceTree = "<group>";
+		};
+		F6CC0FEB1D853A640096B99F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC0FEC1D853A640096B99F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6CC10041D853A640096B99F /* EarthAndMoon1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC10051D853A640096B99F /* EarthAndMoon1Tests.m */,
+				F6CC10071D853A640096B99F /* Info.plist */,
+			);
+			path = EarthAndMoon1Tests;
+			sourceTree = "<group>";
+		};
+		F6CC100F1D853A640096B99F /* EarthAndMoon1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC10101D853A640096B99F /* EarthAndMoon1UITests.m */,
+				F6CC10121D853A640096B99F /* Info.plist */,
+			);
+			path = EarthAndMoon1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6CC0FE71D853A640096B99F /* EarthAndMoon1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6CC10151D853A640096B99F /* Build configuration list for PBXNativeTarget "EarthAndMoon1" */;
+			buildPhases = (
+				F6CC0FE41D853A640096B99F /* Sources */,
+				F6CC0FE51D853A640096B99F /* Frameworks */,
+				F6CC0FE61D853A640096B99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthAndMoon1;
+			productName = EarthAndMoon1;
+			productReference = F6CC0FE81D853A640096B99F /* EarthAndMoon1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6CC10001D853A640096B99F /* EarthAndMoon1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6CC10181D853A640096B99F /* Build configuration list for PBXNativeTarget "EarthAndMoon1Tests" */;
+			buildPhases = (
+				F6CC0FFD1D853A640096B99F /* Sources */,
+				F6CC0FFE1D853A640096B99F /* Frameworks */,
+				F6CC0FFF1D853A640096B99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6CC10031D853A640096B99F /* PBXTargetDependency */,
+			);
+			name = EarthAndMoon1Tests;
+			productName = EarthAndMoon1Tests;
+			productReference = F6CC10011D853A640096B99F /* EarthAndMoon1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6CC100B1D853A640096B99F /* EarthAndMoon1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6CC101B1D853A640096B99F /* Build configuration list for PBXNativeTarget "EarthAndMoon1UITests" */;
+			buildPhases = (
+				F6CC10081D853A640096B99F /* Sources */,
+				F6CC10091D853A640096B99F /* Frameworks */,
+				F6CC100A1D853A640096B99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6CC100E1D853A640096B99F /* PBXTargetDependency */,
+			);
+			name = EarthAndMoon1UITests;
+			productName = EarthAndMoon1UITests;
+			productReference = F6CC100C1D853A640096B99F /* EarthAndMoon1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6CC0FE01D853A640096B99F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xyxorigation;
+				TargetAttributes = {
+					F6CC0FE71D853A640096B99F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F6CC10001D853A640096B99F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F6CC0FE71D853A640096B99F;
+					};
+					F6CC100B1D853A640096B99F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F6CC0FE71D853A640096B99F;
+					};
+				};
+			};
+			buildConfigurationList = F6CC0FE31D853A640096B99F /* Build configuration list for PBXProject "EarthAndMoon1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6CC0FDF1D853A640096B99F;
+			productRefGroup = F6CC0FE91D853A640096B99F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6CC0FE71D853A640096B99F /* EarthAndMoon1 */,
+				F6CC10001D853A640096B99F /* EarthAndMoon1Tests */,
+				F6CC100B1D853A640096B99F /* EarthAndMoon1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6CC0FE61D853A640096B99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CC10211D853A7D0096B99F /* Earth.jpg in Resources */,
+				F6CC0FFB1D853A640096B99F /* LaunchScreen.storyboard in Resources */,
+				F6CC10221D853A7D0096B99F /* Moon.png in Resources */,
+				F6CC0FF81D853A640096B99F /* Assets.xcassets in Resources */,
+				F6CC0FF61D853A640096B99F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CC0FFF1D853A640096B99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CC100A1D853A640096B99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6CC0FE41D853A640096B99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CC0FF31D853A640096B99F /* ViewController.m in Sources */,
+				F6CC0FF01D853A640096B99F /* AppDelegate.m in Sources */,
+				F6CC0FED1D853A640096B99F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CC0FFD1D853A640096B99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CC10061D853A640096B99F /* EarthAndMoon1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CC10081D853A640096B99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CC10111D853A640096B99F /* EarthAndMoon1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6CC10031D853A640096B99F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6CC0FE71D853A640096B99F /* EarthAndMoon1 */;
+			targetProxy = F6CC10021D853A640096B99F /* PBXContainerItemProxy */;
+		};
+		F6CC100E1D853A640096B99F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6CC0FE71D853A640096B99F /* EarthAndMoon1 */;
+			targetProxy = F6CC100D1D853A640096B99F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6CC0FF41D853A640096B99F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6CC0FF51D853A640096B99F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6CC0FF91D853A640096B99F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6CC0FFA1D853A640096B99F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6CC10131D853A640096B99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6CC10141D853A640096B99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6CC10161D853A640096B99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EarthAndMoon1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.EarthAndMoon1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6CC10171D853A640096B99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EarthAndMoon1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.EarthAndMoon1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6CC10191D853A640096B99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EarthAndMoon1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.EarthAndMoon1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthAndMoon1.app/EarthAndMoon1";
+			};
+			name = Debug;
+		};
+		F6CC101A1D853A640096B99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EarthAndMoon1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.EarthAndMoon1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthAndMoon1.app/EarthAndMoon1";
+			};
+			name = Release;
+		};
+		F6CC101C1D853A640096B99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EarthAndMoon1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.EarthAndMoon1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EarthAndMoon1;
+			};
+			name = Debug;
+		};
+		F6CC101D1D853A640096B99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EarthAndMoon1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.EarthAndMoon1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EarthAndMoon1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6CC0FE31D853A640096B99F /* Build configuration list for PBXProject "EarthAndMoon1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CC10131D853A640096B99F /* Debug */,
+				F6CC10141D853A640096B99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6CC10151D853A640096B99F /* Build configuration list for PBXNativeTarget "EarthAndMoon1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CC10161D853A640096B99F /* Debug */,
+				F6CC10171D853A640096B99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6CC10181D853A640096B99F /* Build configuration list for PBXNativeTarget "EarthAndMoon1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CC10191D853A640096B99F /* Debug */,
+				F6CC101A1D853A640096B99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6CC101B1D853A640096B99F /* Build configuration list for PBXNativeTarget "EarthAndMoon1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CC101C1D853A640096B99F /* Debug */,
+				F6CC101D1D853A640096B99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6CC0FE01D853A640096B99F /* Project object */;
+}
